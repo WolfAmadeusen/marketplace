@@ -6,10 +6,10 @@ const Breadcrumbs = ({ parentCategory, subCategory, productId, productName }) =>
       <section>
          <Link to="/">
             <img
-               src="/images/main/variable/house/HouseDefault.svg"
-               onClick={(e) => e.target.src = "/images/main/variable/house/HousePress.svg"}
-               onMouseEnter={(e) => e.target.src = "/images/main/variable/house/HouseHover.svg"}
-               onMouseLeave={(e) => e.target.src = "/images/main/variable/house/HouseDefault.svg"}
+               src="/marketplace/images/main/variable/house/HouseDefault.svg"
+               onClick={(e) => e.target.src = "/marketplace/images/main/variable/house/HousePress.svg"}
+               onMouseEnter={(e) => e.target.src = "/marketplace/images/main/variable/house/HouseHover.svg"}
+               onMouseLeave={(e) => e.target.src = "/marketplace/images/main/variable/house/HouseDefault.svg"}
                alt="Home"
                className="w-8 h-8"
             />

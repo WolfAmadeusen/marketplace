@@ -1,7 +1,7 @@
 
 // Random star generation
-const starFill = '/images/goods/star-fill.png';
-const starTransparency = '/images/goods/star-transparency.png';
+const starFill = '/marketplace/images/goods/star-fill.png';
+const starTransparency = '/marketplace/images/goods/star-transparency.png';
 
 const RenderStars = (grade) => {
    // Generate a random number of "filled" stars (2/3)

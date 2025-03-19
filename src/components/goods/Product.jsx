@@ -84,7 +84,7 @@ export default function Product({ id,idProduct, price, title, pictureUrl, catego
                <button onClick={buyProduct}>
                   <img
                      draggable={"false"}
-                     src="/images/main/variable/basket/BasketMain.svg"
+                     src="/marketplace/images/main/variable/basket/BasketMain.svg"
                      className="text-black"
                      width="32px"
                      height="32px"
@@ -92,7 +92,7 @@ export default function Product({ id,idProduct, price, title, pictureUrl, catego
                      />
                </button>
                <button onClick={handleLike} className="product_item-heart">
-                  <img draggable={"false"} src="/images/main/variable/heart/heart.svg" alt="heart" />
+                  <img draggable={"false"} src="/marketplace/images/main/variable/heart/heart.svg" alt="heart" />
                </button>
             </div>
 
@@ -103,12 +103,12 @@ export default function Product({ id,idProduct, price, title, pictureUrl, catego
                      onClick={buyProduct}
                      className="relative pl-10"
                   >
-                     <img src="/images/main/variable/basket/BasketMain.svg" alt="images" /> Купить</button>
+                     <img src="/marketplace/images/main/variable/basket/BasketMain.svg" alt="images" /> Купить</button>
                   <button
                      onClick={handleLike}
                      className="relative pl-10"
                   >
-                     <img src="/images/main/variable/heart/heart.svg" alt="images" /> Сохранить</button>
+                     <img src="/marketplace/images/main/variable/heart/heart.svg" alt="images" /> Сохранить</button>
                </div>
             </div>
          </section>

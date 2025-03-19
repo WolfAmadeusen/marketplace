@@ -44,9 +44,9 @@ const PasswordField = ({
                   className="absolute transform -translate-y-1/2 text-gray-500"
                >
                   {showPassword ? (
-                     <img src="/images/main/variable/eyes/eyePress.png" width='35px' height='35px' alt="Show password" />
+                     <img src="/marketplace/images/main/variable/eyes/eyePress.png" width='35px' height='35px' alt="Show password" />
                   ) : (
-                     <img src="/images/main/variable/eyes/eye.svg" width='35px' height='35px' alt="Hide password" />
+                     <img src="/marketplace/images/main/variable/eyes/eye.svg" width='35px' height='35px' alt="Hide password" />
                   )}
                </button>
             </div>
@@ -76,9 +76,9 @@ const PasswordField = ({
                   className="absolute transform -translate-y-1/2 text-gray-500"
                >
                   {showConfirmPassword ? (
-                     <img src="/images/main/variable/eyes/eyePress.png" width='35px' height='35px' alt="Show confirm password" />
+                     <img src="/marketplace/images/main/variable/eyes/eyePress.png" width='35px' height='35px' alt="Show confirm password" />
                   ) : (
-                     <img src="/images/main/variable/eyes/eye.svg" width='35px' height='35px' alt="Hide confirm password" />
+                     <img src="/marketplace/images/main/variable/eyes/eye.svg" width='35px' height='35px' alt="Hide confirm password" />
                   )}
                </button>
             </div>

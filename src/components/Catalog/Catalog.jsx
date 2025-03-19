@@ -79,10 +79,10 @@ export default function Catalog() {
                         <img
                            src={
                               hoveredIndex === index
-                                 ? "/images/main/variable/arrow/hover.png"
+                                 ? "/marketplace/images/main/variable/arrow/hover.png"
                                  : activeIndex === index
-                                    ? "/images/main/variable/arrow/press.png"
-                                    : "/images/main/variable/arrow/arrow_right.svg"
+                                    ? "/marketplace/images/main/variable/arrow/press.png"
+                                    : "/marketplace/images/main/variable/arrow/arrow_right.svg"
                            }
                            className="arrow absolute top-0 right-0"
                            alt="arrow"
@@ -113,10 +113,10 @@ export default function Catalog() {
          <h3 className="font-bold text-xl mb-4">Партнерам</h3>
          <section className="catalog-items">
             <a href="#" className="catalog__section relative">
-               <img src="/images/main/sell.svg" alt="Продавать на Shopilyze" />
+               <img src="/marketplace/images/main/sell.svg" alt="Продавать на Shopilyze" />
                <span>Продавать на Shopilyze</span>
                <img
-                  src="/images/main/variable/arrow/arrow_right.svg"
+                  src="/marketplace/images/main/variable/arrow/arrow_right.svg"
                   className="absolute top-0 right-0"
                   alt="arrow right"
                />
@@ -126,10 +126,10 @@ export default function Catalog() {
          <h3 className="font-bold text-xl mb-4">Продавцам</h3>
          <section className="catalog-items">
             <a href="#" className="catalog__section relative">
-               <img src="/images/main/chat.svg" alt="Чат с продавцами" />
+               <img src="/marketplace/images/main/chat.svg" alt="Чат с продавцами" />
                <span>Чат с продавцами</span>
                <img
-                  src="/images/main/variable/arrow/arrow_right.svg"
+                  src="/marketplace/images/main/variable/arrow/arrow_right.svg"
                   className="absolute top-0 right-0"
                   alt="arrow right"
                />

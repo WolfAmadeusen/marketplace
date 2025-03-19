@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const RatingSystem = ({ initialRating = 0, maxStars = 5, onRatingChange }) => {
-   const starFill = '/images/goods/star-fill.jpeg';
-   const starTransparency = '/images/goods/star-transparency.png';
+   const starFill = '/marketplace/images/goods/star-fill.jpeg';
+   const starTransparency = '/marketplace/images/goods/star-transparency.png';
 
    const [rating, setRating] = useState(initialRating);
 

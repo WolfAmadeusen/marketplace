@@ -10,7 +10,7 @@ export function OrderCompleted() {
       <MainLayout body="flex flex-col min-h-screen">
          <main className="flex justify-center items-center gap-4 flex-col my-10 mt-40 lg:mt-10">
             <div>
-               <img src="/images/main/variable/basket/BasketCompleted.svg" alt="Иконка с галочкой" className="w-50 h-50 object-contain" />
+               <img src="/marketplace/images/main/variable/basket/BasketCompleted.svg" alt="Иконка с галочкой" className="w-50 h-50 object-contain" />
             </div>
             <h1 className="text-2xl font-bold mb-5">Поздравляем</h1>
             <h2 className="text-xl font-normal mb-2">Ваш заказ принят</h2>

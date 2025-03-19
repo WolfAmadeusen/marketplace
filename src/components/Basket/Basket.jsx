@@ -10,7 +10,7 @@ export function BasketEmpty() {
       <div className="flex flex-col items-center justify-center gap-4 my-16 sm:gap-8">
          <h1 className="text-2xl sm:text-4xl text-center">Корзина пуста</h1>
          <img
-            src="/images/main/variable/basket/bigBasket.svg"
+            src="/marketplace/images/main/variable/basket/bigBasket.svg"
             alt="Big basket"
             className="w-48 sm:w-64"
          />

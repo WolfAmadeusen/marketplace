@@ -62,35 +62,35 @@ export default function Header() {
                <div className="header-navigation flex gap-6 pl-6">
                   <Link to="/profile" onClick={handleClick}>
                      <img
-                        src="/images/main/human.svg"
+                        src="/marketplace/images/main/human.svg"
                         width="40px"
                         height="auto"
                         alt="Profile"
-                        onMouseEnter={(e) => e.target.src = "/images/main/variable/human/hover.svg"}
-                        onMouseLeave={(e) => e.target.src = "/images/main/variable/human/main.svg"}
+                        onMouseEnter={(e) => e.target.src = "/marketplace/images/main/variable/human/hover.svg"}
+                        onMouseLeave={(e) => e.target.src = "/marketplace/images/main/variable/human/main.svg"}
                      />
                   </Link>
                   <div className='relative'>
                      <Link to="/api/basket" >
                         <img
-                           src="/images/main/variable/basket/basket.svg"
+                           src="/marketplace/images/main/variable/basket/basket.svg"
                            width="40px"
                            height="auto"
                            alt="bassket"
-                           onMouseEnter={(e) => e.target.src = "/images/main/variable/basket/hover.svg"}
-                           onMouseLeave={(e) => e.target.src = "/images/main/variable/basket/basket.svg"}
+                           onMouseEnter={(e) => e.target.src = "/marketplace/images/main/variable/basket/hover.svg"}
+                           onMouseLeave={(e) => e.target.src = "/marketplace/images/main/variable/basket/basket.svg"}
                         />
                      </Link>
                      {basket && <span className='absolute text-base font-bold right-0 top-0 text-red-600'>{basket.length}</span>}
                   </div>
                   <Link to="/profile/favorite" onClick={handleClick}>
                      <img
-                        src="/images/main/variable/heart/heart.svg"
+                        src="/marketplace/images/main/variable/heart/heart.svg"
                         width="40px"
                         height="auto"
                         alt="heart"
-                        onMouseEnter={(e) => e.target.src = "/images/main/variable/heart/hover.svg"}
-                        onMouseLeave={(e) => e.target.src = "/images/main/variable/heart/heart.svg"}
+                        onMouseEnter={(e) => e.target.src = "/marketplace/images/main/variable/heart/hover.svg"}
+                        onMouseLeave={(e) => e.target.src = "/marketplace/images/main/variable/heart/heart.svg"}
                      />
                   </Link>
                </div>
@@ -103,12 +103,12 @@ export default function Header() {
                   <div className='relative'>
                      <Link to="/api/basket" >
                         <img
-                           src="/images/main/variable/basket/basket.svg"
+                           src="/marketplace/images/main/variable/basket/basket.svg"
                            width="40px"
                            height="auto"
                            alt="bassket"
-                           onMouseEnter={(e) => e.target.src = "/images/main/variable/basket/hover.svg"}
-                           onMouseLeave={(e) => e.target.src = "/images/main/variable/basket/basket.svg"}
+                           onMouseEnter={(e) => e.target.src = "/marketplace/images/main/variable/basket/hover.svg"}
+                           onMouseLeave={(e) => e.target.src = "/marketplace/images/main/variable/basket/basket.svg"}
                         />
                      </Link>
                      {basket && <span className='absolute text-base font-bold right-0 top-0 text-red-600'>{basket.length}</span>}
@@ -116,7 +116,7 @@ export default function Header() {
                   <div className="relative">
                      <Link to={'/profile/favorite'}>
                         <img
-                           src="/images/main/variable/heart/heart.svg"
+                           src="/marketplace/images/main/variable/heart/heart.svg"
                            width="40px"
                            height="auto"
                            alt="heart"
@@ -124,7 +124,7 @@ export default function Header() {
                      </Link>
                   </div>
                   <button>
-                     <img src="/images/main/search.svg" alt="search" draggable="false" width="40px" height="40px" />
+                     <img src="/marketplace/images/main/search.svg" alt="search" draggable="false" width="40px" height="40px" />
                   </button>
                </div>
             </section>

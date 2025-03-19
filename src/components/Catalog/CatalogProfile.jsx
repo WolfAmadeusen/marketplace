@@ -71,10 +71,10 @@ export default function CatalogProfile() {
                         <img
                            src={
                               hoveredIndex === index
-                                 ? '/images/main/variable/arrow/Arrow_right-hover.svg'
+                                 ? '/marketplace/images/main/variable/arrow/Arrow_right-hover.svg'
                                  : activeIndex === index
-                                    ? '/images/main/variable/arrow/press.png'
-                                    : '/images/main/variable/arrow/arrow_right.svg'
+                                    ? '/marketplace/images/main/variable/arrow/press.png'
+                                    : '/marketplace/images/main/variable/arrow/arrow_right.svg'
                            }
                            className="arrow absolute top-1/2 right-0 transform -translate-y-1/2 sm:w-5 sm:h-5"
                            alt="arrow"

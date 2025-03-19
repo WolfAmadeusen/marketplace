@@ -167,13 +167,13 @@ const LoginModal = ({ isOpen, onClose }) => {
                      >
                         {showPassword ? (
                            <img
-                              src="/images/main/variable/eyes/eyePress.png"
+                              src="/marketplace/images/main/variable/eyes/eyePress.png"
                               alt="Show password"
                               style={{ width: "35px", height: "35px" }}
                            />
                         ) : (
                            <img
-                              src="/images/main/variable/eyes/eye.svg"
+                              src="/marketplace/images/main/variable/eyes/eye.svg"
                               alt="Hide password"
                               style={{ width: "35px", height: "35px" }}
                            />

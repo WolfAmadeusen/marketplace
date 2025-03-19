@@ -135,8 +135,8 @@ export default function Product() {
 
    //вставка звёзд
    const
-      starFill = '/images/goods/star-fill.png',
-      starTransparency = '/images/goods/star-transparency.png',
+      starFill = '/marketplace/images/goods/star-fill.png',
+      starTransparency = '/marketplace/images/goods/star-transparency.png',
       renderStars = (width = '', hight = '') => {
          // Генерация случайного количества звезд
          const fullStars = product.grade; //Получения количество звёзд
@@ -274,13 +274,13 @@ export default function Product() {
                                     <button
                                        onClick={buyProduct}
                                        className="w-full relative text-xl text-gray-700 font-600 rounded bg-orange-500 py-4">
-                                       <img src="/images/main/variable/basket/BasketMain.svg" alt="images" />
+                                       <img src="/marketplace/images/main/variable/basket/BasketMain.svg" alt="images" />
                                        Купить
                                     </button>
                                     <button
                                        onClick={handleLike}
                                        className="w-full relative text-xl text-gray-700 font-semibold bg-inherit border-2 border-orange-500 rounded py-4">
-                                       <img src="/images/main/variable/heart/heartMain.svg" alt="images" />
+                                       <img src="/marketplace/images/main/variable/heart/heartMain.svg" alt="images" />
                                        В корзину
                                     </button>
                                  </section>
@@ -305,7 +305,7 @@ export default function Product() {
                                     <WhiteButton
                                        className='p-2'
                                        onClick={handleLike}>
-                                       <img src="/images/main/variable/heart/heartMain.svg" alt="heart" />
+                                       <img src="/marketplace/images/main/variable/heart/heartMain.svg" alt="heart" />
                                     </WhiteButton>
                                  </section>
                               </>
