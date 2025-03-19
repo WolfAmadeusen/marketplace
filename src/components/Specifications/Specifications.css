@@ -1,0 +1,31 @@
+.item-name,
+.item-value {
+   font-weight: 400;
+   font-size: 16px;
+   /* Уменьшен для мобильных */
+}
+
+.item-value {
+   color: rgb(100, 98, 96);
+}
+
+.category-title {
+   font-weight: 600;
+   font-size: 18px;
+   /* Уменьшен для мобильных */
+   color: #000;
+}
+
+@media (min-width: 768px) {
+
+   .item-name,
+   .item-value {
+      font-size: 20px;
+      /* Увеличен для больших экранов */
+   }
+
+   .category-title {
+      font-size: 20px;
+      /* Увеличен для больших экранов */
+   }
+}
