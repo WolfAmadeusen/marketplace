@@ -40,7 +40,7 @@ export default function HeaderAdaptive() {
                   }}
                >
                   <img
-                     src="/images/main/variable/house/houseAdaptive.svg"
+                     src="/marketplace/images/main/variable/house/houseAdaptive.svg"
                      width="30px"
                      height="auto"
                      alt="Home"
@@ -49,7 +49,7 @@ export default function HeaderAdaptive() {
 
                <Link to={'/profile'} onClick={handleClick} className="menu-item">
                   <img
-                     src="/images/main/variable/human/main.svg"
+                     src="/marketplace/images/main/variable/human/main.svg"
                      width="30px"
                      height="auto"
                      alt="Profile"
@@ -65,25 +65,25 @@ export default function HeaderAdaptive() {
                <li>
                   <Link to={"/api/product/productByCategory/0"}>
                      <span>Мобильная техника и электроника</span>
-                     <img src="/images/main/variable/arrow/arow.svg" alt="img" />
+                     <img src="/marketplace/images/main/variable/arrow/arow.svg" alt="img" />
                   </Link>
                </li>
                <li>
                   <Link to={"/api/product/productByCategory/1"}>
                      <span>Компьютеры</span>
-                     <img src="/images/main/variable/arrow/arow.svg" alt="img" />
+                     <img src="/marketplace/images/main/variable/arrow/arow.svg" alt="img" />
                   </Link>
                </li>
                <li>
                   <Link to={"/api/product/productByCategory/2"}>
                      <span>Комплектующие</span>
-                     <img src="/images/main/variable/arrow/arow.svg" alt="img" />
+                     <img src="/marketplace/images/main/variable/arrow/arow.svg" alt="img" />
                   </Link>
                </li>
                <li>
                   <Link to={"/api/product/productByCategory/3"}>
                      <span>string</span>
-                     <img src="/images/main/variable/arrow/arow.svg" alt="img" />
+                     <img src="/marketplace/images/main/variable/arrow/arow.svg" alt="img" />
                   </Link>
                </li>
             </ul>
