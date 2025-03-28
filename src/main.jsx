@@ -6,7 +6,7 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
    <StrictMode>
-      <BrowserRouter basename='marketplace'>
+      <BrowserRouter basename='/marketplace'>
          <App />
       </BrowserRouter>
    </StrictMode>
