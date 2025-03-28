@@ -2,7 +2,8 @@
   Shopilyze
 </h1>
 
-[![Demo Preview](https://placehold.co/600x300?text=Shopilyze+Demo+Preview)](https://shopilyze-demo.example.com)
+[![Демо-превью](https://github.com/WolfAmadeusen/marketplace.git)](https://github.com/WolfAmadeusen/marketplace.git)
+
 
 <p align="center">
   <a href="https://vitejs.dev/">
