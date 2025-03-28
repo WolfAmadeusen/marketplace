@@ -2,7 +2,7 @@
   Shopilyze
 </h1>
 
-[![Демо-превью](https://github.com/WolfAmadeusen/marketplace.git)](https://github.com/WolfAmadeusen/marketplace.git)
+[![Демо-превью](https://wolfamadeusen.github.io/marketplace)](https://wolfamadeusen.github.io/marketplace)
 
 
 <p align="center">
