@@ -1,0 +1,45 @@
+@media (max-width: 869.99999px) {
+   .ProductSubTitle {
+      font-size: 35px;
+   }
+
+   .adaptiveProduct {
+      margin-top: 100px;
+   }
+
+   .priceProduct {
+      font-size: 34px;
+      font-weight: 600;
+   }
+   
+}
+
+@media (max-width: 620.99999px) {
+   .adaptiveProduct {
+      margin-top: 20px;
+   }
+
+   .productName {
+      padding: 30px 0px;
+   }
+}
+
+@media (max-width: 550.999999px) {
+   .adaptiveProduct section h1 {
+      margin-top: 80px;
+   }
+
+   .ProductSubTitle {
+      font-size: 40px;
+   }
+
+   .productInfo {
+      font-weight: 400;
+      font-size: 15px;
+   }
+
+   .priceProduct {
+      font-size: 34px;
+      font-weight: 600;
+   }
+}
