@@ -2,7 +2,7 @@
   Shopilyze
 </h1>
 
-[![Демо-превью](https://placehold.co/600x300?text=Shopilyze+Demo+Preview)](https://shopilyze-demo.example.com)
+[![Демо-превью](https://github.com/WolfAmadeusen/marketplace.git)](https://github.com/WolfAmadeusen/marketplace.git)
 
 
 <p align="center">
