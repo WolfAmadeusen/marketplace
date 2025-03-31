@@ -1,0 +1,10 @@
+.imgProduct {
+   width: 160px;
+   height: 160px;
+   border-radius: 5px;
+}
+
+
+.adaptiveButton {
+   display: none;
+}
